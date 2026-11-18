@@ -9,7 +9,9 @@ Jie Su · Zhenyu Wen · Tao Lin · Yu Guan<br>
 
 [ACM 论文](https://doi.org/10.1145/3517252) · [arXiv 预印本](https://arxiv.org/abs/2202.07260) · [实验结果](#跨受试者识别结果) · [代码与数据](#代码与数据) · [BibTeX 引用](#引用)
 
-同样是站立，三个人的传感器读数却可以很不一样。封面上的三段波形就取自论文图 1。换一位佩戴者，哪些特征还能帮助模型识别站立？行为模式解耦（Behaviour Pattern Disentanglement，BPD）让分类器学习不同人执行同一活动时共有的特征。本仓库提供论文的官方 PyTorch 实现。
+## 关于 BPD
+
+封面上的三段波形来自三位站立的佩戴者。同一种活动会产生不同的传感器读数。行为模式解耦（Behaviour Pattern Disentanglement，BPD）将不同人共有的活动特征与个人动作习惯带来的差异分开，帮助分类器识别新佩戴者的活动。本仓库提供论文的官方 PyTorch 实现，支持 CNN 和 DeepConvLSTM 两种骨干网络。
 
 ## BPD 如何识别活动
 

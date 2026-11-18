@@ -9,7 +9,9 @@ Jie Su · Zhenyu Wen · Tao Lin · Yu Guan<br>
 
 [ACM paper](https://doi.org/10.1145/3517252) · [arXiv](https://arxiv.org/abs/2202.07260) · [Results](#cross-subject-results) · [Code and data](#code-and-data) · [BibTeX](#citation)
 
-Three people can all be standing still and produce quite different sensor readings, as the traces from Figure 1 show above. What part of the signal tells us that a *new* wearer is standing? Behaviour Pattern Disentanglement (BPD) trains an activity classifier to use the patterns that people share. This repository contains the official PyTorch implementation.
+## About BPD
+
+The three traces above show how sensor readings vary even when every wearer is standing still. Behaviour Pattern Disentanglement (BPD) separates features shared across wearers from variation due to individual movement styles, helping a classifier recognise activities in a new wearer. This repository contains the official PyTorch implementation for CNN and DeepConvLSTM backbones.
 
 ## How BPD works
 
